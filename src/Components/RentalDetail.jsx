@@ -1,4 +1,5 @@
 import React from "react";
+import Footer from '../Components/Footer'
 
 const RentalDetail = () => {
   // Options for different features
@@ -11,6 +12,7 @@ const RentalDetail = () => {
   const outdoorOptions = ["balcony", "patio", "yard"];
 
   return (
+    <div>
     <div className="bg-gradient-to-b from-white via-[#aeefdc] to-[#fbfbfb] min-h-screen p-4 sm:p-6 lg:p-8">
       <div className="flex flex-col lg:flex-row">
         <div className="p-4 lg:w-1/4">
@@ -257,6 +259,8 @@ const RentalDetail = () => {
           </div>
         </div>
       </div>
+      </div>
+      <Footer/>
     </div>
   );
 };
